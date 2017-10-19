@@ -35,10 +35,12 @@ A bit.ly URL was used because in order to truly decentralize the genome file it 
 | *tipCreator()* | 0x0          | Address String   | Public     |
 | *kill()*      | 0x0           | Terminates the Contract | Creator Only |
 
-## Web3 Setup
+## Connect with Web3.js
 You will need a node on the main Ethereum network to interact with this contract via web3.
 
-In the example javascript below we're using an Infura API URL, this is free and you'll need to get one before runing the script. You will also need the [Web3.js (1.0.0 or later) Module](https://github.com/ethereum/web3.js/) and [Node.js (8.7.0 or later)](https://nodejs.org/en/) all saved in a project folder you're running this script from.
+In the example javascript below we're using an [Infura API URL](https://infura.io/), this is free and you'll need to get one before runing the script. You will also need the [Web3.js (1.0.0 or later) Module](https://github.com/ethereum/web3.js/) and [Node.js (8.7.0 or later)](https://nodejs.org/en/) all saved in a project folder you're running this script from.
+
+This script will work with the currently deployed contract, however you can swap out the address and ABI with your own or another contract and makes calls like this too.
 
 ``` javascript
 // Require the Web3 Module
