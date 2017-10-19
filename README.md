@@ -27,7 +27,7 @@ A bit.ly URL was used because in order to truly decentralize the genome file it 
 | Function      | Hex Code      | Result Returned | Access        |
 |:-------------:|:-------------:|:---------------:|:-------------:|
 | *getInfo()*   | 0x0           | Two Text Strings | Public     |
-| *getEbola()*  | 0x0           | URL String       | Pulic      |
+| *getEbola()*  | 0x0           | URL String       | Public     |
 | *tipCreator()* | 0x0          | Address String   | Public     |
 | *kill()*      | 0x0           | Terminates the Contract | Creator Only |
 
