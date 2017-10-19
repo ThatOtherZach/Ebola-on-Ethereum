@@ -1,5 +1,5 @@
 # Ebola on Ethereum
-It seems like a bad idea, but let's give it a try. This is a [live Smart Contract on Ethereum]() that delivers a link to a text file on [Swarm](http://swarm-gateways.net/bzz:/theswarm.eth/) (Ethereums decentralized storage) which contains the ebola virus genome. A full write up on this project can be found on Medium.
+It seems like a bad idea, but let's give it a try. This is a [live Smart Contract on Ethereum]() that delivers a link to a text file on [Swarm](http://swarm-gateways.net/bzz:/theswarm.eth/) (Ethereums decentralized storage) which contains the ebola virus genome. A full write up on this project can be [found on Medium]().
 
 **There is no need to ever send Ether or ERC20 tokens to this contract! Functions are called on, not transactional which means usage is free.**
 
@@ -8,12 +8,14 @@ If you would like to send me a tip or buy me a coffee, us the Ethereum tip addre
 ## Why Ebola?
 It was trending in the news at the time when I first had this idea and the public went a little crazy with “ebola fever”; no one was safe. Putting something like the digital version of a virus that caused a some maina on a blockchain that also happened to be causing a disruption seemed like a fun idea.
 
-## Smart Contract Address & ABI
+## Smart Contract Address & ABI/JSON Interface
 Address: [0x0]()
 
 Contract ABI/JSON Interface:
 
 ```[{}]```
+
+You can use [MyEtherWallet.com](https://www.myetherwallet.com/#contracts) to interact with the contract. Use the "Contracts" tab and paste in the address and ABI/JSON above into thier respective fields then click "Access". You'll then be able to interact with the functions via a dropdown button and see the returned results.
 
 ## Functions
 - *“getInfo”* Returns basic text info of the contract.
