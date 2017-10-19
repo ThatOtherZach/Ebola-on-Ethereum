@@ -5,8 +5,10 @@ It seems like a bad idea, but let's give it a try. This is a [live Smart Contrac
 
 If you would like to send me a tip or buy me a coffee, us the Ethereum tip address in the contract (0x0).
 
-## Why Ebola?
-It was trending in the news at the time when I first had this idea and the public went a little crazy with “ebola fever”; no one was safe. Putting something like the digital version of a virus that caused a some maina on a blockchain that also happened to be causing a disruption seemed like a fun idea.
+## But... Why?
+Why not? I've been meaning to do this for a long time (for science!), and with Ethereums smart contracts and decentraized storage it seemed like a good oppertunity to actaully give it a go. Sure I could have just put the genome on PasteBin and put the URL into a normal transaction... but where is the fun in that? It seemed like more fun and cooler to actually make a smart contract that serves the link to the file on Swarm.
+
+So yeah, now you can get the URL to a file containing the ebola virus genome on the Ethereum blockchain via a smart contract! The only thing missing from this project is an "Ebola Token ICO"... Maybe next time ;)
 
 ## Smart Contract Address & ABI/JSON Interface
 Address: [0x0]()
