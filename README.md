@@ -41,5 +41,24 @@ You will need a node on the main Ethereum network to interact with this contract
 In the example javascript below we're using an Infura API URL, this is free and you'll need to get one before runing the script. You will also need the [Web3.js (1.0.0 or later) Module](https://github.com/ethereum/web3.js/) and [Node.js (8.7.0 or later)](https://nodejs.org/en/) all saved in a project folder you're running this script from.
 
 ``` javascript
-{}
+// Require the Web3 Module
+var Web3 = require('web3');
+
+// Show Web3 where it needs to look for the Ethereum node
+web3 = new Web3(new Web3.providers.HttpProvider('https://mainnet.infura.io/YOUR-API-TOKEN-HERE'));
+
+// Write to the console the script will run shortly
+console.log('Contract-ing Ebola.....');
+
+// Define the ABI of the contract, used to return the desired values
+var abi= [ABI];
+
+// Define the Ethereum address of the smart contract
+var addr = "CONTRACT-ADDRESS";
+
+// Build a new variable based on the Web3 API including the ABI and address of the contract
+var EbolaContract = new web3.eth.Contract(abi, addr);
+
+// Put it all together in a call and return the result to the console
+EbolaContract.methods.getEbola().call().then(console.log);
 ```
