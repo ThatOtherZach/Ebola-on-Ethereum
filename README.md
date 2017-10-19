@@ -1,9 +1,9 @@
 # Ebola on Ethereum
 It seems like a bad idea, but let's give it a try. This is a [live Smart Contract on Ethereum]() that delivers a link to a text file on [Swarm](http://swarm-gateways.net/bzz:/theswarm.eth/) (Ethereums decentralized storage) which contains the ebola virus genome. A full write up on this project can be [found on Medium]().
 
-**There is no need to ever send Ether or ERC20 tokens to this contract! Functions are called on, not transactional which means usage is free.**
+### There is no need to ever send Ether or ERC20 tokens to this contract! Functions are called on, not transactional which means usage is free.
 
-If you would like to send me a tip or buy me a coffee, us the Ethereum tip address in the contract (0x0).
+However if you would like to send me a tip or buy me a coffee, us the Ethereum tip address in the contract (0x0).
 
 ## But... Why?
 Why not? I've been meaning to do this for a long time (for science!), and with Ethereums smart contracts and decentraized storage it seemed like a good oppertunity to actaully give it a go. Sure I could have just put the genome on PasteBin and put the URL into a normal transaction... but where is the fun in that? It seemed like more fun and cooler to actually make a smart contract that serves the link to the file on Swarm.
