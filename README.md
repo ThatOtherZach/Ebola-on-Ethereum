@@ -21,7 +21,7 @@ Contract ABI/JSON Interface:
 - *“tipCreator”* Returns the creators Ethereum tip address if a user is feeling generous and or amused.
 - *“kill”* The only function the creator has sole access to. This will destroy the contract and send any Ether in the contracts balance back to the creator.
 
-A bit.ly URL was used because in order to truly decentralize the genome file it had to be hosted on Swarm. Swarm produces a unique hash string of the file which can be used to retrive the file in a browser (prefaced by http://swarm-gateways.net/bzz:/FILE-HASH). The hash string is 64 characters long, which is too long for ease of use in the contract. Even then the URL is long and looks scarry, so using a URL shortner like bit.ly was an easy quick fix that still returns the URL in a clean fashion.
+A bit.ly URL was used because in order to truly decentralize the genome file it had to be hosted on Swarm. Swarm produces a unique hash string of the file which can be used to retrive the file in a browser (prefaced by http://swarm-gateways.net/bzz:/FILE-HASH). The hash string is 64 characters long, which is too long for ease of use in the contract and looks scarry. So using a URL shortner like bit.ly was an easy quick fix that still returns and re-directs to Swarm file.
 
 ### Expected Results For Functions
 | Function      | Hex Code      | Result Returned | Access        |
