@@ -51,7 +51,7 @@ web3 = new Web3(new Web3.providers.HttpProvider('https://mainnet.infura.io/YOUR-
 console.log('Contract-ing Ebola.....');
 
 // Define the ABI of the contract, used to return the desired values
-var abi= [ABI];
+var abi = [ABI];
 
 // Define the Ethereum address of the smart contract
 var addr = "CONTRACT-ADDRESS";
