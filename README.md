@@ -28,12 +28,12 @@ You can use [MyEtherWallet.com](https://www.myetherwallet.com/#contracts) to int
 A bit.ly URL was used because in order to truly decentralize the genome file it had to be hosted on Swarm. Swarm produces a unique hash string of the file which can be used to retrive the file in a browser (prefaced by http://swarm-gateways.net/bzz:/FILE-HASH). The hash string is 64 characters long, which is too long for ease of use in the contract and looks scarry. So using a URL shortner like bit.ly was an easy quick fix that still returns and re-directs to Swarm file.
 
 ### Expected Results For Functions
-| Function      | Hex Code      | Result Returned | Access        |
-|:-------------:|:-------------:|:---------------:|:-------------:|
-| *getInfo()*   | 0x0           | Two Text Strings | Public     |
-| *getEbola()*  | 0x0           | URL String       | Public     |
-| *tipCreator()* | 0x0          | Address String   | Public     |
-| *kill()*      | 0x0           | Terminates the Contract | Creator Only |
+| Function      | Result Returned | Access        |
+|:-------------:|:---------------:|:-------------:|
+| *getInfo()*   | Two Text Strings | Public     |
+| *getEbola()*  | URL String       | Public     |
+| *tipCreator()* | Address String   | Public     |
+| *kill()*      | Terminates the Contract | Creator Only |
 
 ## Connect with Web3.js
 You will need a node on the main Ethereum network to interact with this contract via web3.
