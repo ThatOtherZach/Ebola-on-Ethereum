@@ -17,4 +17,5 @@ var addr = "CONTRACT-ADDRESS";
 var EbolaContract = new web3.eth.Contract(abi, addr);
 
 // Put it all together in a call and return the result to the console
-EbolaContract.methods.getEbola().call().then(console.log);
+// FUNCTION can be "getEbola", "getInfo", "tipCreator" and "kill"
+EbolaContract.methods.FUNCTION().call().then(console.log);
