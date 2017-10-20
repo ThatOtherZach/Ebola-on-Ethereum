@@ -11,10 +11,8 @@ Why not? I've been meaning to do this for a long time (for science!), and with E
 So yeah, now you can get the URL to a file containing the ebola virus genome on the Ethereum blockchain via a smart contract! The only thing missing from this project is an "Ebola Token ICO"... Maybe next time ;)
 
 ## Smart Contract Address & ABI/JSON Interface
-Address:
-```[0x0]()```
-
-Contract ABI/JSON Interface:
+**Address:** [0x0]()  
+**Contract ABI/JSON Interface:**  
 ```[{}]```
 
 You can use [MyEtherWallet.com](https://www.myetherwallet.com/#contracts) to interact with the contract. Use the "Contracts" tab and paste in the address and ABI/JSON above into thier respective fields then click "Access". You'll then be able to interact with the functions via a dropdown button and see the returned results.
