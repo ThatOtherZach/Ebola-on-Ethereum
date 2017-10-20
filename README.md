@@ -32,7 +32,7 @@ A bit.ly URL was used because in order to truly decentralize the genome file it 
 |:-------------:|:---------------:|:-------------:|
 | *getInfo()*   | Two Text Strings | Public     |
 | *getEbola()*  | URL String       | Public     |
-| *tipCreator()* | One Text Strin, One Address String   | Public     |
+| *tipCreator()* | One Text String, One Address String   | Public     |
 | *kill()*      | Terminates the Contract | Creator Only |
 
 ## Connect with Web3.js
