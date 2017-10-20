@@ -8,9 +8,117 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    
+    <!-- Custom Sweet Style -->
+    <style type="text/css">
+      /* Sticky footer styles
+      -------------------------------------------------- */
+      html {
+        position: relative;
+        min-height: 100%;
+      }
+      body {
+        margin-bottom: 60px; /* Margin bottom by footer height */
+        background-color: #ffffff;
+      }
+      .footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 60px; /* Set the fixed height of the footer here */
+        line-height: 60px; /* Vertically center the text there */
+        background-color: #cecece;
+      }
+
+      .resdiv {
+        background-color: #000000;
+        color: green;
+        border-radius: 5px;
+        padding: 10px;
+      }
+
+
+      /* Custom page CSS
+      -------------------------------------------------- */
+      /* Not required for template or sticky footer method. */
+
+      .container {
+        width: auto;
+        max-width: 680px;
+        padding: 0 15px;
+      }
+    </style>
+
   </head>
   <body>
-    <h1>Hello, world!</h1>
+
+    <!-- Begin page content -->
+    <main role="main" class="container">
+      <div class="mt-1">
+        <h1>Ebola on Ethereum</h1>
+      </div>
+      <h2 class="lead">The ebola genome on the Ethereum blockchain served up from a smart contract.</h2>
+      <center><p class="lead">Smart Contract Ethereum Address: <a href="#">0x0</a></p></center>
+      <p><b>Check out <a href="#">the Github Repo</a> for all the code. Or read <a href="#">the Medium Article</a> about the the why and how it was created.</b></p>
+      <p>The contract has a few functions you can use each will produce a responce. The genome file is hosted on <a href="#">Swarm</a>, Ethereum's decentrailzed file storage. A bit.ly link will redirect you to the full Swarm URL (its kind of long).</p>
+      <br />
+
+      <div class="mt-1">
+        <h4>Interacting with the Smart Contract:</h4>
+      </div>
+
+      <p><b>IMPORANT:</b> Sending Ether or tokens to this contract is a bad idea. You will not get these funds back, and there is no method to retrive them if you do so. If you want to tip, use the tipping address (0x9Ff24857b990a8d036D0973d9a0825A76C2c8723).</p>
+
+      <p>Functions that can be used with Web3.js and Node.js or Geth and thier restulting reponces from the smart contract.</p>
+      <br />
+      
+      <div class="mt-1">
+        <h4>Functions:</h4>
+      </div>
+
+      <!-- getEbola Function -->
+      <h5>"getEbola()"</h5>
+      <p>Returns a bit.ly URL that will redirect to the smart contract</p>
+      <div class="resdiv">
+        URL: http://bit.ly/0x4554482b45626f6c61
+      </div>
+      <br />
+
+      <!-- getInfo Function -->
+      <h5>"getInfo()"</h5>
+      <p>Returns two strings. "0" Is a hello message from the creator in Esperanto. "1" Is some basic info on the ebola virus genome the contract contains a link to; <a href="#">sourced from here</a>.</p>
+      <div class="resdiv">
+        Result {<br />
+          '0': 'Saluton, mia nomo estas Zach!',<br />
+          '1': 'Ebola virus - Zaire, cat.1976' }
+      </div>
+      <br /> 
+
+      <!-- tipCreator Function -->
+      <h5>"tipCreator()"</h5>
+      <p>Returns a text string and an Ethereum address. "0" Is a message from the creator in English. "1" Is the address you can send a tip to if you're feeling generous and or amused.</p>
+      <div class="resdiv">
+        Result {<br />
+          '0': 'If you like you can tip me at this address :)',<br />
+          '1': '0x9Ff24857b990a8d036D0973d9a0825A76C2c8723' }
+      </div>
+      <br />
+
+      <!-- kill Function -->
+      <h5>"tipCreator()"</h5>
+      <p>Returns a text string. While you can try to execute this function with a transaction, it will not do anything as only the creator can kill the contract.</p>
+      <div class="resdiv">
+        Vi ne havas povon ĉi tie!
+      </div>
+      <hr/>
+    </main>
+
+
+    <footer class="footer">
+      <div class="container">
+        <center><span class="text-muted">Created by <a href="#">ThatOtherZach</a></span></center>
+      </div>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
