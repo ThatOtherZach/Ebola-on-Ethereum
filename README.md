@@ -1,3 +1,5 @@
+![Ebola + ETH image](https://github.com/ThatOtherZach/Ebola-on-Ethereum/blob/images/ebolaeth-sm.png "Ebola + ETH")
+
 # Ebola on Ethereum
 This is a [live Smart Contract on Ethereum](https://etherscan.io/address/0xe16f391e860420e65c659111c9e1601c0f8e2818) that delivers a URL link to the text file of the ebola virus genome hosted on [Swarm](http://swarm-gateways.net/bzz:/theswarm.eth/) (Ethereum's decentralized storage). A full write up on this project can be [found on Medium]().
 
