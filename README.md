@@ -3,7 +3,7 @@
 # Ebola on Ethereum
 This is a [live Smart Contract on Ethereum](https://etherscan.io/address/0xe16f391e860420e65c659111c9e1601c0f8e2818) that delivers a URL link to the text file of the ebola virus genome hosted on [Swarm](http://swarm-gateways.net/bzz:/theswarm.eth/) (Ethereum's decentralized storage). A full write up on this project can be [found on Medium](https://medium.com/@thatotherzach/i-put-the-ebola-virus-on-ethereum-34a832b2f97a).
 
-It seems like a bad idea, but let's give it a try.
+It seems like a bad idea, but let's give it a try!
 
 ### There is no need to ever send Ether or ERC20 tokens to this contract! Functions are called on, not transactional which means usage is free.
 
