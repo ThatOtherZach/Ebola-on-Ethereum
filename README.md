@@ -35,6 +35,13 @@ A bit.ly URL was used because in order to truly decentralize the genome file it 
 | *tipCreator()* | One Text String, One Address String   | Public     |
 | *kill()*      | Terminates the Contract | Creator Only |
 
+## Meteor App
+This is my first time with Meteor, be gentle. If there are errors below please point them out.
+
+This is just a simple app that loads up the contract into a webpage. You will need Meteor (+1.5.2.2), and the MetaMask Chrome extension (used to connect to the Etherum Blockchain) to use the app locally, there is no website because I really don't want to pay to host this.
+
+Just download the EthEbolaApp folder once you have meteor installed, and run ```meteor``` in the app folder. Then just access "localhost:3000" in your browser.
+
 ## Connect with Web3.js
 You will need a node on the main Ethereum network to interact with this contract via web3.
 
